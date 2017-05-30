@@ -11,7 +11,8 @@
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded.Shadow">
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">50</item>
+        <!-- RS CPP error: Blur radius out of 0-25 pixel bound    Radius mora biti unutar ovog errora -->
+        <item name="android:shadowRadius">20</item>
         <item name="android:shadowColor">@android:color/black</item>
     </style>
 
